@@ -1,0 +1,43 @@
+* {
+  text-align: center;
+}
+
+.search {
+  position: relative;
+  top: 130px;
+  z-index: 1;
+  width: 80%;
+  margin: auto;
+}
+.carousel-item img {
+  opacity: 0.8;
+}
+.destacadas {
+  margin: 0 auto;
+}
+.card {
+  margin: 2px auto;
+}
+.contacto {
+  background: rgb(27, 27, 27);
+  color: #fafafa;
+}
+.contacto ul {
+  list-style: none;
+}
+@media (min-width: 600px) {
+  .search {
+    top: 400px;
+  }
+  .cards {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    width: 30%;
+  }
+  .sobre-nosotros p {
+    padding: 10px 80px;
+  }
+}
