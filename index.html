@@ -29,7 +29,7 @@
                             <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Ver todas las propiedades</a>
+                            <a class="nav-link" href="#todas">Ver todas las propiedades</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sobre nosotros</a>
@@ -64,7 +64,7 @@
             <h2>Propiedades destacadas</h2>
             <div class="cards">
                 <article class="card" style="width: 18rem;">
-                    <img src="img/patrick-perkins-3wylDrjxH-E-unsplash (1).jpg" class="card-img-top" alt="departamento">
+                    <img src="img/casa2.jpg" class="card-img-top" alt="departamento">
                     <div class="card-body">
                         <h5 class="card-title">3 ambientes - Zona Microcentro</h5>
                         <p class="card-text">Despartamento ubicado en pleno centro, 2 habitaciones, balcón, cochera.</p>
@@ -72,7 +72,7 @@
                     </div>
                 </article>
                 <article class="card" style="width: 18rem;">
-                    <img src="img/aubrey-odom-ITzfgP77DTg-unsplash (1).jpg" class="card-img-top" alt="casa">
+                    <img src="img/casa3.jpg" class="card-img-top" alt="casa">
                     <div class="card-body">
                         <h5 class="card-title">Casa tipo quinta</h5>
                         <p class="card-text">Casa en las afueras de la ciudad. Consta de 4 habitaciones y 2 baños.
@@ -81,7 +81,7 @@
                     </div>
                 </article>
                 <article class="card" style="width: 18rem;">
-                    <img src="img/stephan-bechert-yFV39g6AZ5o-unsplash (1).jpg" class="card-img-top" alt="casa">
+                    <img src="img/casa1.jpg" class="card-img-top" alt="casa">
                     <div class="card-body">
                         <h5 class="card-title">Casa en barrio privado</h5>
                         <p class="card-text">Consta de 6 habitaciones y 3 baños. Cochera para 2 autos y piscina.
@@ -91,6 +91,34 @@
                     </div>
 
                 </article>
+        </section>
+        <section class="todas-propiedades pt-3" id='todas'>
+            <h2>Todas nuestras propiedades</h2>
+            <div class="filtros text-left"">
+                <h3>Seleccioná lo que buscás</h3>
+                <label class='mt-3 font-weight-bold'for=" tipo">Tipo de propiedad: </label>
+                <select id='tipo' class="form-control form-control-sm ">
+                    <option>Todas las propiedades</option>
+                    <option>Casa</option>
+                    <option>Departamento</option>
+                    <option>Local Comercial</option>
+                </select>
+
+                <label for="ciudad" class='mt-3 font-weight-bold'>Ciudad: </label>
+
+                <select id='ciudad' class="form-control form-control-sm ">
+                    <option>Todas las ciudades</option>
+                    <option>Resistencia</option>
+                    <option>Corrientes</option>
+                </select>
+
+
+            </div>
+            <div id="resultado">
+
+            </div>
+
+
         </section>
         <section class="sobre-nosotros mt-3 p-4">
             <h3>SOBRE NOSOTROS</h3>
@@ -115,6 +143,11 @@
         </footer>
 
     </div>
+
+
+
+    <script src="propiedades.js"></script>
+    <script src="main.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

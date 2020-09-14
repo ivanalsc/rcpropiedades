@@ -15,9 +15,27 @@
 .destacadas {
   margin: 0 auto;
 }
+
 .card {
-  margin: 2px auto;
+  width: 18rem;
+  margin: 10px auto;
+  color: black;
 }
+.card img {
+  height: 13rem;
+}
+#resultado {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+#todas {
+  margin-top: 5px;
+  background-color: rgb(37, 36, 36);
+  color: #fafafa;
+  padding: 10px;
+}
+
 .contacto {
   background: rgb(27, 27, 27);
   color: #fafafa;
@@ -40,4 +58,10 @@
   .sobre-nosotros p {
     padding: 10px 80px;
   }
+}
+.mensaje-error {
+  color: #fafafa;
+  border: 3px solid #fafafa;
+  justify-content: center;
+  padding: 1rem;
 }
